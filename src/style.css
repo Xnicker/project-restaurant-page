@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid green;
+}
+
+#content {
+    
+    width: 99vw;
+    height: 99vh;
+    
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.navbtn {
+    user-select: none;
+}
